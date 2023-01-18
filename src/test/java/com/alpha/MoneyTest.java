@@ -25,7 +25,7 @@ public class MoneyTest {
     void testMultiplicationFranc(){
         Franc five = new Franc(5);
         Franc product = five.times(2);
-        assertEquals(new Franc(11), product);
+        assertEquals(new Franc(10), product);
     }
 
     @Test
